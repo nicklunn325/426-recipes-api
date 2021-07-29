@@ -72,6 +72,7 @@
   notes?
   belongs_to user
   belongs_to recipe
+
 - recipeIngredient
   recipe_id
   ingredient_id
@@ -85,6 +86,7 @@
   category_id
   belongs_to recipe
   belongs_to category
+
 - review
   recipe_id
   user_id
@@ -93,3 +95,16 @@
   content
   belongs_to recipe
   belongs_to user
+
+What do we need to do?
+
+- create our database tables
+  - migrations for:
+    - users
+    - recipes
+    - ingredients
+    - reviews
+    - categories
+    - userRecipes
+    - recipeIngredients
+    - recipeCategories
