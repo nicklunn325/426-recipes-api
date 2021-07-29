@@ -100,6 +100,7 @@
 What do we need to do?
 
 - create our database tables
+
   - migrations for:
     - users
     - recipes
@@ -109,3 +110,8 @@ What do we need to do?
     - userRecipes
     - recipeIngredients
     - recipeCategories
+
+- controllers
+- frontend
+- routes
+- associations
