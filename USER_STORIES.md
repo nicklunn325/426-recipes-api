@@ -51,6 +51,8 @@
   has_one creator
   has_many user_recipes
   has_many users through user_recipes
+  has_many reviews
+  has_many users through reviews
   has_many recipe_ingredients
   has_many ingredients through recipe_ingredients
   has_many recipe_categories
