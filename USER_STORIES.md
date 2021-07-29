@@ -60,6 +60,7 @@
   name
   has_many recipe_ingedients
   has_many recipes through recipe ingredients
+
 - category
   name/title
 
