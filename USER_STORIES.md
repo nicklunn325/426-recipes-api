@@ -60,6 +60,7 @@
   name
   has_many recipe_ingedients
   has_many recipes through recipe ingredients
+
 - category
   name/title
 
@@ -99,6 +100,7 @@
 What do we need to do?
 
 - create our database tables
+
   - migrations for:
     - users
     - recipes
@@ -108,3 +110,8 @@ What do we need to do?
     - userRecipes
     - recipeIngredients
     - recipeCategories
+
+- controllers
+- frontend
+- routes
+- associations
