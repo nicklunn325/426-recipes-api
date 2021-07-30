@@ -5,7 +5,7 @@ class Recipe < ApplicationRecord
     has_many :users, through: :reviews
 
     has_many :user_recipes
-    has_many :recipe_users, through: :user_recipes, class_name: "User"
+    has_many :recipe_users, through: :user_recipes, source: :user
 
     has_many :recipe_ingredients
     has_many :ingredients, through: :recipe_categories
